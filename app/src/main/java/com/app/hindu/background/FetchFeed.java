@@ -16,7 +16,6 @@ import com.app.hindu.constants.HTTPConstants;
 import com.app.hindu.model.News;
 import com.app.hindu.util.ConnectionUtil;
 import com.app.hindu.util.HttpUtil;
-import com.app.hindu.util.SpeedScrollListener;
 import com.app.hindu.util.XMLParser;
 
 import org.apache.http.HttpResponse;

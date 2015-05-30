@@ -14,7 +14,6 @@ import android.widget.TextView;
 import com.app.hindu.ui.NewsDetailActivity;
 import com.app.hindu.R;
 import com.app.hindu.model.News;
-import com.app.hindu.util.SpeedScrollListener;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
