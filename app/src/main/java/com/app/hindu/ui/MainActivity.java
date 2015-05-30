@@ -105,7 +105,6 @@ public class MainActivity extends ActionBarActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_fav) {
-            Toast.makeText(this, "Marked as Favourite", Toast.LENGTH_SHORT).show();
             FavouriteOptionDialog dialog = new FavouriteOptionDialog(PreferenceManager.getDefaultSharedPreferences(this));
             dialog.show(getFragmentManager(),null);
         }

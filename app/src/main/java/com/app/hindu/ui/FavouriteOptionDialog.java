@@ -1,5 +1,6 @@
 package com.app.hindu.ui;
 
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
@@ -17,8 +18,9 @@ import java.util.ArrayList;
 
 
 /**
- * Created by 914893 on 3/17/15.
+ * Created by Srihari on 3/17/15.
  */
+@SuppressLint("ValidFragment")
 public class FavouriteOptionDialog extends DialogFragment {
 
     private String tripId;
@@ -50,7 +52,7 @@ public class FavouriteOptionDialog extends DialogFragment {
                         // Do something useful withe the position of the selected radio button
                         Log.d("clicked", String.valueOf(selectedPosition));
                         SharedPreferences.Editor editor = default_section.edit();
-                        editor.putInt(PREFS_NAME,selectedPosition);
+                        editor.putInt(PREFS_NAME, selectedPosition);
                         editor.commit();
                     }
                 });
